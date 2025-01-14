@@ -31,3 +31,18 @@ A simple and efficient web-based QR Code Menu System that allows customers to ac
   - MySQL (for storing menu data)
 - **QR Code**:
   - QR code linking to the customer-facing menu page.
+---
+## **Usage**
+
+### **For Customers**
+1. Scan the QR code provided on cafeteria tables or posters.
+2. View the menu, categorized into Breakfast, Lunch, Drinks, etc.
+3. Filter items by category or view item details (name, price, description, image).
+
+### **For Admins**
+1. Navigate to the admin dashboard (`admin.html`).
+2. Log in (future functionality for authentication can be added).
+3. Add, edit, or delete categories and menu items through the dashboard form.
+---
+## **Screenshots**
+### **Customer Interface**

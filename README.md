@@ -1,6 +1,6 @@
 # **QR Code Menu System for University Cafeteria**
 
-A simple and efficient web-based QR Code Menu System that allows customers to access the cafeteria menu by scanning a QR code and enables the admin to manage menu categories and items dynamically. The project is built with **HTML**, **CSS**, and **JavaScript** and can be extended with backend functionality.
+A simple and efficient web-based QR Code Menu System that allows customers to access the cafeteria menu by scanning a QR code and enables the admin to manage menu categories and items dynamically. The project is built with **HTML**, **CSS**, and **JavaScript** ,MYSQL and PHP For  backend functionality.
 
 ---
 

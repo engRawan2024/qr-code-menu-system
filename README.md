@@ -44,8 +44,7 @@ A simple and efficient web-based QR Code Menu System that allows customers to ac
 2. Log in (future functionality for authentication can be added).
 3. Add, edit, or delete categories and menu items through the dashboard form.
 ---
-## **License**
-This project is licensed under the MIT License. You are free to use, modify, and distribute the project with proper attribution.
+
 ---
 ## **Screenshots**
 ### **Customer Interface**

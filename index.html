@@ -4,7 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>كافتيريا صهيل</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      background-color: #f9f8e7;
+      color: #333;
+    }
+
+    .header {
+      background-color: #f1c40f;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .header .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .nav {
+      margin-top: 0.5rem;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .menu {
+      padding: 2rem;
+    }
+
+    .menu h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #f1c40f;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item img {
+      width: 120px;
+      height: 120px;
+      border-radius: 8px;
+      margin-right: 1rem;
+    }
+
+    .item-details {
+      flex: 1;
+    }
+
+    .item-details h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .item-details p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      color: #f1c40f;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
   <header class="header">

@@ -45,8 +45,3 @@ A simple and efficient web-based QR Code Menu System that allows customers to ac
 3. Add, edit, or delete categories and menu items through the dashboard form.
 ---
 
----
-## **Screenshots**
-### **Customer Interface**
-### **Admin Dashboard**
-

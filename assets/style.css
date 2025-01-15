@@ -1,13 +1,89 @@
- body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-    }
+body {
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8e9;
+    color: #333;
+    line-height: 1.6;
+}
 
-    header {
-      background-color: #343a40;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
+.header {
+    text-align: center;
+    background-color: #f4d03f;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #8a6d3b;
+}
+
+.menu-categories {
+    background-color: #f4d03f;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-categories li {
+    font-size: 1.2rem;
+    color: #8a6d3b;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-categories li:hover {
+    font-weight: bold;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    direction: rtl;
+}
+
+.item img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.details {
+    padding: 15px;
+    flex: 1;
+}
+
+.details h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #8a6d3b;
+}
+
+.details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.details span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f4a639;
+}

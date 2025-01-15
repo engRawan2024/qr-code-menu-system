@@ -1,89 +1,84 @@
 body {
-    font-family: "Tajawal", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8e9;
-    color: #333;
-    line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: #f9f8e7;
+  color: #333;
 }
 
 .header {
-    text-align: center;
-    background-color: #f4d03f;
-    padding: 20px;
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
-.header h1 {
-    font-size: 2rem;
-    color: #8a6d3b;
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.menu-categories {
-    background-color: #f4d03f;
-    text-align: center;
-    padding: 10px 0;
+.nav {
+  margin-top: 0.5rem;
 }
 
-.menu-categories ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
 }
 
-.menu-categories li {
-    font-size: 1.2rem;
-    color: #8a6d3b;
-    cursor: pointer;
-    position: relative;
+.nav a:hover {
+  text-decoration: underline;
 }
 
-.menu-categories li:hover {
-    font-weight: bold;
+.menu {
+  padding: 2rem;
 }
 
-.menu-items {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+.menu h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #f1c40f;
 }
 
-.item {
-    display: flex;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    direction: rtl;
+.menu-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.item img {
-    width: 120px;
-    height: auto;
-    border-radius: 10px 0 0 10px;
+.menu-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  margin-right: 1rem;
 }
 
-.details {
-    padding: 15px;
-    flex: 1;
+.item-details {
+  flex: 1;
 }
 
-.details h2 {
-    font-size: 1.5rem;
-    margin: 0;
-    color: #8a6d3b;
+.item-details h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
 }
 
-.details p {
-    font-size: 1rem;
-    color: #555;
+.item-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555;
 }
 
-.details span {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #f4a639;
+.price {
+  font-size: 1.2rem;
+  color: #f1c40f;
+  font-weight: bold;
 }

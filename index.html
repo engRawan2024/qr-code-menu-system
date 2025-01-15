@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منيو كافيتريا صهيك</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>كافتيريا صهيل</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="logo.png" alt="شعار كافيتريا صهيك">
-        </div>
-        <h1>كافيتريا صهيك</h1>
-    </header>
-    <nav class="menu-categories">
-        <ul>
-            <li>الوجبات</li>
-            <li>الساندوتشات</li>
-            <li>الحلا</li>
-            <li>المشروبات</li>
-        </ul>
+  <header class="header">
+    <div class="logo">كافتيريا صهيل</div>
+    <nav class="nav">
+      <a href="#meals">الوجبات</a>
+      <a href="#sandwiches">الساندوتشات</a>
+      <a href="#desserts">الحلا</a>
+      <a href="#drinks">المشروبات</a>
     </nav>
-    <section class="menu-items">
-        <div class="item">
-            <img src="dish1.jpg" alt="بينك باستا">
-            <div class="details">
-                <h2>بينك باستا</h2>
-                <p>مزيج مثالي من المكرونة الشهية مغطاة بصوص البينك الرائع مع لمسة من الجبن الكريمي اللذيذ.</p>
-                <span>10 S.R</span>
-            </div>
+  </header>
+
+  <main class="menu">
+    <section id="meals">
+      <h2>الوجبات</h2>
+      <div class="menu-item">
+        <img src="images/bank-pasta.jpg" alt="بنك باستا">
+        <div class="item-details">
+          <h3>بنك باستا</h3>
+          <p>مزج مثالي من المكرونة الشهية مغطاة بصوص البند الرائع مع لمسة من الجبن الكريمي اللذيذ.</p>
+          <span class="price">10 S.R</span>
         </div>
-        <div class="item">
-            <img src="dish2.jpg" alt="فتة ورق عنب">
-            <div class="details">
-                <h2>فتة ورق عنب</h2>
-                <p>مزيج من الأرز الطري وأوراق العنب الشهية مغطاة بالزبادي والكروتون المقرمش لإضافة لمسة لذيذة ومميزة.</p>
-                <span>7 S.R</span>
-            </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/warak-enab.jpg" alt="ورق عنب">
+        <div class="item-details">
+          <h3>ورق عنب</h3>
+          <p>مزج من الأرز الطري وأوراق العنب الشهية مغطاة بالزبادي والكروتون المقرمش لإضافة لمسة لذيذة.</p>
+          <span class="price">7 S.R</span>
         </div>
-        <div class="item">
-            <img src="dish3.jpg" alt="كشري">
-            <div class="details">
-                <h2>كشري</h2>
-                <p>مزيج من العدس، الأرز، والمكرونة، مزين بالبصل المقرمش لإضافة الترمشة الرائعة.</p>
-                <span>12 S.R</span>
-            </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/koshari.jpg" alt="كشري">
+        <div class="item-details">
+          <h3>كشري</h3>
+          <p>مزج من العدس، الأرز، والمكرونة، مزين بالبصل المقرمش لإضافة القرمشة الرائعة.</p>
+          <span class="price">12 S.R</span>
         </div>
+      </div>
     </section>
+  </main>
 </body>
 </html>

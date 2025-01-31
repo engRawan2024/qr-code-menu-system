@@ -1,0 +1,140 @@
+ /* General Reset */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f8e9;
+      color: #5a4632;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1rem 0;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      
+      color: #c2a83e;
+      margin-right: 40%;
+    }
+
+    header img {
+      height: 90px;
+      margin-right: 10%;
+      background-color: #000;
+      filter: invert(100%);
+    }
+
+	header .adminlogin {
+	   padding: 10px;
+	   font-size: 20px;
+	   color: white;
+	   background:#f1c40f;
+	   border:none;
+	   border-radius: 5px;
+	   margin-right:10%;
+	  font-weight: bold;
+	  height:30%;
+	  text-decoration: none;
+	}
+	header .adminlogin:hover{
+              padding: 10px;
+	          font-size: 20px;
+	          color: white;
+	          background:#ff5733;
+	          border:none;
+	          border-radius: 5px;
+			  	margin-right:10%;
+				 font-weight: bold;
+				  
+            }
+
+    nav {
+      background-color: #d7b53e;
+      padding: 0.5rem 0;
+      margin-top: -1%;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+    }
+
+    nav ul li {
+      font-size: 1.6rem;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    nav ul a {
+      text-decoration: none;
+    }
+
+    nav ul li:hover {
+      text-decoration: underline;
+    }
+
+    nav ul li.active {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.2rem;
+    }
+
+    .food-container {
+      padding: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .food-card {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+
+    .food-card img {
+      width: 140px;
+      height: 130px;
+      border-radius: 10px;
+      margin-left: 1rem;
+    }
+
+    .food-card .details {
+      flex: 1;
+    }
+
+    .food-card h2 {
+      font-size: 1.4rem;
+      color: #c2a83e;
+      margin: 0 0 0.5rem;
+    }
+
+    .food-card p {
+      margin: 0 0 1rem;
+      font-size: 1rem;
+    }
+
+    .food-card .price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #f1c40f;
+      float: left;
+      margin-left: 2%;
+    }
+    .food-container h3 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #f1c40f;
+    }

@@ -58,7 +58,7 @@ Set up XAMPP or LAMP for running Apache and MySQL.
 Navigate to localhost/qr-code-menu in your browser to access the system.
 ---
 
-## **Testing**
+## **Testing **
 The system has undergone various types of testing:
 Unit Testing: Verified individual functions and database queries.
 Integration Testing: Ensured that frontend-backend interactions work smoothly.

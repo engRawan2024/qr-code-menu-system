@@ -23,7 +23,7 @@
 			</p> 
 			
 						<p>
-  Rawan | 
+  Rawan | Orjwan | Wejdan | Arej
 			</p>
 
 		 </div>

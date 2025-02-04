@@ -48,7 +48,7 @@ A simple and efficient web-based QR Code Menu System that allows customers to ac
 
 ## **Installation & Setup**
 1. Clone the Repository
-git clone https://github.com/your-username/qr-code-menu.git
+git clone https://github.com/engRawan2024/qr-code-menu-system
 cd qr-code-menu
 2. Install Dependencies
 Set up XAMPP or LAMP for running Apache and MySQL.
